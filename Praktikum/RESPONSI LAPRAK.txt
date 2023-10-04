@@ -1,0 +1,8 @@
+Screenshoot (WIN+SHIFT+S)
+Sebelum disalin ke Word, alangkah baiknya salin dlu ke Notepad baru ke Word.
+Ada simbol (-) diawal soal (Seperti di tempplate).
+Output min 2 setiap soal jika soal ada Scanner (jika tidak, tidak perlu).
+Penulisan Nomor Output ==> NomorSoal.NomorGambar
+Beri keterangan lanjut setelah program dijalankan (Panjang = 1, Lebar = 2, dll) atau (Bilangan genap, Bilangan ganjil).
+Ctrl + Shift + C utk copy format teks.
+WAJIB PAKAI NETBEANS.

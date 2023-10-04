@@ -1,0 +1,8 @@
+Mengkompile file java di cmd
+caranya:
+    1. Buka cmd
+    2. Jika folder menyimpan file javanya ada di dick D, maka ketik d:
+    3. Buka File Explorer, buka folder penyimpan file-file java, copy path nya
+    4. Sebelum paste, ketik cd(spasi), kemudian paste
+    5. Ketik dir jika ingin mengetahui lebih lanjut tentang isi folder
+    6. Ketik java [nama file java termasuk .java]
