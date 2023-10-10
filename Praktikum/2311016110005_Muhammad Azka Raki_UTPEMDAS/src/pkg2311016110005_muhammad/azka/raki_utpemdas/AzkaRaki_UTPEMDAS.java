@@ -8,7 +8,7 @@ public class AzkaRaki_UTPEMDAS {
         Scanner input1 = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
         String username, password, pilihanMakanan, pilihanMinuman;
-        float totalTagihan = 0, hargaSetelahDiskon;
+        float totalTagihan = 0, diskonYangDidapat;
         final float diskon = 0.1f;
 
         System.out.println("               Login               ");
@@ -53,10 +53,10 @@ public class AzkaRaki_UTPEMDAS {
                     totalTagihan = 13000;
                     switch (pilihanMinuman) {
                         case "1":
-                            totalTagihan += 5000;
+                            totalTagihan += 3000;
                             break;
                         case "2":
-                            totalTagihan += 3000;
+                            totalTagihan += 5000;
                             break;
                         default:
 
@@ -66,10 +66,10 @@ public class AzkaRaki_UTPEMDAS {
                     totalTagihan = 10000;
                     switch (pilihanMinuman) {
                         case "1":
-                            totalTagihan += 5000;
+                            totalTagihan += 3000;
                             break;
                         case "2":
-                            totalTagihan += 3000;
+                            totalTagihan += 5000;
                             break;
                         default:
 
@@ -79,14 +79,14 @@ public class AzkaRaki_UTPEMDAS {
                 default:
 
             }
-            hargaSetelahDiskon = (totalTagihan > 15000) ? totalTagihan * diskon : 0;
-            System.out.println("Diskon        : Rp" + hargaSetelahDiskon);
+            diskonYangDidapat = (totalTagihan > 15000) ? totalTagihan * diskon : 0;
+            System.out.println("Diskon        : Rp" + diskonYangDidapat);
             
             totalTagihan = (totalTagihan > 15000) ? totalTagihan - (totalTagihan * diskon) : totalTagihan;
             System.out.println("Total tagihan : Rp" + totalTagihan);
 
         } else {
-            System.out.println("Username dan Password SALAH");
+            System.out.println("Username atau Password SALAH");
         }
     }
 
