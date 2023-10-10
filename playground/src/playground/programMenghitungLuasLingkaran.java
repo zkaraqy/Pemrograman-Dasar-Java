@@ -10,7 +10,6 @@ public class programMenghitungLuasLingkaran {
     static void hitungLuasLingkaran() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Program menghitung luas lingkaran");
-
         System.out.println("*********************************");
 
         System.out.print("Masukkan jari-jari(cm) : ");
