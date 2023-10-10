@@ -54,13 +54,13 @@ public class MuhammadAzkaRaki_2311016110005 {
         status3 = (rata_rata3 > 50) ? "LULUS" : "TIDAK LULUS";
 
         System.out.println("");
-        System.out.println("========================================================================");
-        System.out.println("Nama" + "\t" + "NIM" + "\t" + "Nilai 1" + "\t" + "Nilai 2" + "\t" + "Rata-rata" + "\t" + "Status");
-        System.out.println("========================================================================");
-        System.out.println(nama1 + "\t" + NIM1 + "\t" + (int) nilai1_mhs1 + "\t" + (int) nilai2_mhs1 + "\t" + rata_rata1 + "\t\t" + status1);
-        System.out.println(nama2 + "\t" + NIM2 + "\t" + (int) nilai1_mhs2 + "\t" + (int) nilai2_mhs2 + "\t" + rata_rata2 + "\t\t" + status2);
-        System.out.println(nama3 + "\t" + NIM3 + "\t" + (int) nilai1_mhs3 + "\t" + (int) nilai2_mhs3 + "\t" + rata_rata3 + "\t\t" + status3);
-        System.out.println("========================================================================");
+        System.out.println("=============================================================================");
+        System.out.println("Nama" + "\t" + "NIM" + "\t" + "Nilai 1" + "\t\t" + "Nilai 2" + "\t\t" + "Rata-rata" + "\t" + "Status");
+        System.out.println("=============================================================================");
+        System.out.println(nama1 + "\t" + NIM1 + "\t" + (int) nilai1_mhs1 + "\t\t" + (int) nilai2_mhs1 + "\t\t" + rata_rata1 + "\t\t" + status1);
+        System.out.println(nama2 + "\t" + NIM2 + "\t" + (int) nilai1_mhs2 + "\t\t" + (int) nilai2_mhs2 + "\t\t" + rata_rata2 + "\t\t" + status2);
+        System.out.println(nama3 + "\t" + NIM3 + "\t" + (int) nilai1_mhs3 + "\t\t" + (int) nilai2_mhs3 + "\t\t" + rata_rata3 + "\t\t" + status3);
+        System.out.println("=============================================================================");
 
     }
 

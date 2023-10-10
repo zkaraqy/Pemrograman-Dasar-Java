@@ -164,14 +164,22 @@ public class Playground {
                 break;
         }
          */
-        int bil;
-        System.out.print("Masukkan bilangan : ");
-        bil = scan.nextInt();
-        if (bil % 2 == 0) {
-            System.out.println(bil + " merupakan bilangan GENAP");
-        } else {
-            System.out.println(bil + " merupakan bilangan GANJIL");
-        }
+//        int bil;
+//        System.out.print("Masukkan bilangan : ");
+//        bil = scan.nextInt();
+//        if (bil % 2 == 0) {
+//            System.out.println(bil + " merupakan bilangan GENAP");
+//        } else {
+//            System.out.println(bil + " merupakan bilangan GANJIL");
+//        }
+
+        int x = 100;
+        System.out.println(x);
+//        x++;
+//        ++x;
+//        x--;
+        --x;
+        System.out.println(x);
     }
 
 }

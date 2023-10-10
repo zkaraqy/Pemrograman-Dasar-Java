@@ -19,11 +19,11 @@ public class soal4 {
         System.out.print("Enter menit : ");
         menit = input.nextInt();
         System.out.println("===========================");
-        if (jumlah_pembelian > 0) {
+        if (jumlah_pembelian >= 0) {
 
             if (menit > 0 && menit <= 420) {
                 if (menit >= 40) {
-                    hasil_pembelian = harga_semangka * jumlah_pembelian - ((harga_semangka*jumlah_pembelian) * 0.05) * (int)(menit/40);
+                    hasil_pembelian = harga_semangka * jumlah_pembelian - ((harga_semangka * jumlah_pembelian) * 0.05) * (int) (menit / 40);
                 } else {
                     hasil_pembelian = harga_semangka * jumlah_pembelian;
                 }
