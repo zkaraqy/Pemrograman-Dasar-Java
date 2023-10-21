@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Playground {
 
     public static void main(String[] args) {
-//        membuat obyek input
+
         Scanner scan = new Scanner(System.in);
         /*
 //        menerima input kemudian disimpan dalam variable
