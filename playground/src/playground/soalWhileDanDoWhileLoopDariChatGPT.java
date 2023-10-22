@@ -6,6 +6,7 @@ public class soalWhileDanDoWhileLoopDariChatGPT {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
+        Scanner input2 = new Scanner(System.in);
         /*
         1. While Loop - Menampilkan Bilangan Ganjil: 
         Buatlah program Java yang menggunakan while loop untuk menampilkan semua bilangan ganjil dari 1 hingga N, di mana N adalah masukan pengguna.
@@ -162,6 +163,104 @@ public class soalWhileDanDoWhileLoopDariChatGPT {
                 System.out.println("Clue : " + randomKata.charAt(0));
             }
         } while (repeat);
+        
+        9. While Loop - Pola Bintang Terbalik:
+        Buat program Java yang mencetak pola bintang terbalik, di mana jumlah baris pola ditentukan oleh masukan pengguna. Contoh, jika pengguna memasukkan 5, program akan mencetak:
+        *****
+        ****
+        ***
+        **
+        *
+
+        
+        System.out.print("Enter jumlah baris : ");
+        int n = input.nextInt();
+
+        while (n > 0) {
+            int i = 0;
+            while (i < n) {
+                System.out.print("*");
+                i++;
+            }
+            System.out.println("");
+            n--;
+        }
+        
+        10. Do-While Loop - Penjumlahan Deret Fibonacci: 
+        Buat program Java yang meminta pengguna untuk memasukkan sejumlah bilangan bulat N. Program harus menghitung dan mencetak jumlah dari N angka pertama dalam deret Fibonacci. Gunakan do-while loop.
+        
+        int i, n, f_n, f_n_1, f_n_2;
+        System.out.print("mengambil nilai fibinocci ke - : ");
+        n = input.nextInt();
+
+        i = 1;
+        f_n_2 = 0;
+        f_n_1 = 1;
+        f_n = 1;
+
+        do {
+            System.out.print(f_n + " ");
+            f_n = f_n_1 + f_n_2;
+            f_n_2 = f_n_1;
+            f_n_1 = f_n;
+            i++;
+        } while (i <= n);
+        
+        11. Do-While Loop - Kalkulator:
+        Buat kalkulator sederhana dalam bahasa Java yang dapat melakukan operasi penambahan, pengurangan, perkalian, dan pembagian. Program harus terus berjalan dan meminta pengguna untuk melakukan operasi aritmatika hingga pengguna memilih untuk keluar. Gunakan do-while loop.
+        
+        boolean repeat = true;
+        int bil1, bil2;
+        do {
+            System.out.println("========================");
+            System.out.println("  Kalkulator Sederhana  ");
+            System.out.println("========================");
+            System.out.println("1. Penamhaban");
+            System.out.println("2. Pengurangan");
+            System.out.println("3. Perkalian");
+            System.out.println("4. Pembagian");
+            System.out.println("5. Keluar");
+            System.out.println("========================");
+            System.out.print("Enter pilihan \n(1/2/3/4/5) : ");
+            String pilihan = input2.nextLine();
+            System.out.println("========================");
+            switch (pilihan) {
+                case "1":
+                    System.out.print("Masukkan bilangan 1 : ");
+                    bil1 = input.nextInt();
+                    System.out.print("Masukkan bilangan 2 : ");
+                    bil2 = input.nextInt();
+                    System.out.println(bil1 + " + " + bil2 + " = " + (bil1 + bil2));
+                    break;
+                case "2":
+                    System.out.print("Masukkan bilangan 1 : ");
+                    bil1 = input.nextInt();
+                    System.out.print("Masukkan bilangan 2 : ");
+                    bil2 = input.nextInt();
+                    System.out.println(bil1 + " - " + bil2 + " = " + (bil1 - bil2));
+                    break;
+                case "3":
+                    System.out.print("Masukkan bilangan 1 : ");
+                    bil1 = input.nextInt();
+                    System.out.print("Masukkan bilangan 2 : ");
+                    bil2 = input.nextInt();
+                    System.out.println(bil1 + " x " + bil2 + " = " + (bil1 * bil2));
+                    break;
+                case "4":
+                    System.out.print("Masukkan bilangan 1 : ");
+                    bil1 = input.nextInt();
+                    System.out.print("Masukkan bilangan 2 : ");
+                    bil2 = input.nextInt();
+                    System.out.println(bil1 + " / " + bil2 + " = " + (double) ((double) bil1 / (double) bil2));
+                    break;
+                default:
+                    repeat = false;
+                    break;
+            }
+            System.out.println("");
+
+        } while (repeat);
          */
+
     }
 }
