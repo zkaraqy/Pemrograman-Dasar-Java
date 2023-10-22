@@ -107,7 +107,61 @@ public class soalWhileDanDoWhileLoopDariChatGPT {
                 System.out.println("Input Invalid. Try Again\n");
             }
         } while (repeat);
-         */
+        
+        7. While Loop - Bilangan Prima:
+        Buatlah program Java yang menggunakan while loop untuk menentukan apakah suatu angka yang dimasukkan oleh pengguna adalah bilangan prima atau bukan. Program harus terus meminta input hingga pengguna memasukkan bilangan nol (0).
 
+        boolean repeat = true;
+        while (repeat) {
+            System.out.print("Masukkan angka : ");
+            int n = input.nextInt();
+            
+            if (n == 2 || n == 3 || n == 5 || n == 7) {
+                System.out.println(n + " adalah bilangan prima");
+            } else if (n != 1 && !(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0)) {
+                System.out.println(n + " adalah bilangan prima");
+            } else if (n == 0) {
+                repeat = false;
+            } else {
+                System.out.println(n + " bukan bilangan prima");
+            }
+        }
+        8. Do-While Loop - Permainan Tebak Kata:
+        Buatlah permainan tebak kata sederhana dalam bahasa Java. Program harus memilih kata secara acak dari sebuah daftar kata, dan pengguna harus menebak kata tersebut. Program memberikan petunjuk apakah huruf yang ditebak oleh pengguna ada dalam kata atau tidak. Gunakan do-while loop dan pertimbangkan untuk memberikan poin kepada pengguna.
+
+        boolean repeat = true;
+        int score = 0;
+        System.out.println("Permainan Tebak Kata");
+        System.out.println("Daftar kata :");
+        System.out.println("- ayam\n- sapi\n- kucing\n- kadal\n- anjing\n- singa\n- angsa\n- harimau\n- hiu\n- hamster");
+        String[] daftarKata = {"ayam", "sapi", "kucing", "kadal", "anjing", "singa", "angsa", "harimau", "hiu", "hamster"};
+        int randomChoice = (int) Math.round(Math.random() * 10 - 1);
+        randomChoice = (randomChoice >= 0) ? randomChoice : 0;
+        String randomKata = daftarKata[randomChoice];
+//        System.out.println(randomChoice);
+//        System.out.println(randomKata);
+        do {
+            System.out.print("\nTebak anda : ");
+            String pilihanKata = input.nextLine();
+            if (pilihanKata.equals(randomKata)) {
+                score += 10;
+                System.out.println("Anda Benar !\t score : " + score);
+                System.out.print("Ulang (Y/N) : ");
+                String inputUlang = input.nextLine();
+                if (inputUlang.equalsIgnoreCase("Y")) {
+                    randomChoice = (int) Math.round(Math.random() * 10 - 1);
+                    randomChoice = (randomChoice >= 0) ? randomChoice : 0;
+                    randomKata = daftarKata[randomChoice];
+                    repeat = true;
+                } else {
+                    System.out.println("\nScore : " + score);
+                    System.out.println("Terimakasih telah bermain");
+                    repeat = false;
+                }
+            } else {
+                System.out.println("Clue : " + randomKata.charAt(0));
+            }
+        } while (repeat);
+         */
     }
 }
