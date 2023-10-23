@@ -75,20 +75,21 @@ public class whileLoop {
 //            i++;
 //        }
 //
-//        int outer = 1;
-//        while (outer < 3) {
-//            int inner = 5;
-//            while (inner < 8) {
-////                System.out.println(outer + " " + inner);
-//                int deepest = 10;
-//                while (deepest < 14) {                    
-//                    System.out.println(outer + " " + inner + " " + deepest);
-//                    deepest++;
-//                }
-//                inner++;
-//            }
-//            outer++;
-//        }
+        int outer = 1;
+        while (outer < 3) {
+            int inner = 5;
+            while (inner < 8) {
+                System.out.println(outer + " " + inner);
+                int deepest = 10;
+                while (deepest < 14) {
+                    System.out.println(outer + " " + inner + " " + deepest);
+                    deepest++;
+                }
+                System.out.println("");
+                inner++;
+            }
+            outer++;
+        }
 
     }
 }
