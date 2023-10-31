@@ -172,14 +172,39 @@ public class Playground {
 //        } else {
 //            System.out.println(bil + " merupakan bilangan GANJIL");
 //        }
-
-        int x = 100;
-        System.out.println(x);
+//
+//        int x = 100;
+//        System.out.println(x);
 //        x++;
 //        ++x;
 //        x--;
-        --x;
-        System.out.println(x);
+//        --x;
+//        System.out.println(x);
+//
+//        int x = Integer.sum(9, 10);
+//        int x = Integer.compare(10, 7);
+//        int x = Integer.max(0, 90);
+//        int x = Integer.min(0, 90);
+//        int x = Integer.divideUnsigned(6, 9);
+//        int x = Integer.parseInt("857");
+//        int x = I;
+//        System.out.println(x);
+//        
+//        String text = String.join(" ", "Muhammad", "Azka", "Raki");
+//        System.out.println(text);
+
+//        double y = Double.parseDouble("345.87");
+//        System.out.println(y);
+
+//        int z = Math.abs(-9);
+//        double z = Math.toDegrees(1);
+//        double z = Math.floor(1.9);
+//        double z = Math.round(1.5);
+//        double z = Math.sin(90);
+        double z = Math.sqrt(17);
+        System.out.println(z);
+                
+                
     }
 
 }

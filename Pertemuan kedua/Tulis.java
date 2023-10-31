@@ -5,5 +5,6 @@ public class Tulis {
         System.out.println(23);
         System.out.println(25.7);
         System.out.println(1000);
+        
     }
 }
