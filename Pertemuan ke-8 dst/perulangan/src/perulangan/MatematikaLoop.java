@@ -2,7 +2,7 @@ package perulangan;
 
 import java.util.Scanner;
 
-public class Matematika {
+public class MatematikaLoop {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);

@@ -2,7 +2,7 @@ package percabangan;
 
 import java.util.Scanner;
 
-public class BankIf {
+public class BankATM {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
