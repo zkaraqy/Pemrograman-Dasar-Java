@@ -6,29 +6,29 @@ public class soal3 {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        int banyak_beli = 0, cashback = 0, tambahan_barang = 0, jumlah_barang = 0;
+        int banyakBeli = 0, cashback = 0, tambahanBarang = 0, jumlahBarang = 0;
         
         System.out.println("=================Selamat Datang di Toko Charlie============");
         
         System.out.print("Banyak Pembelian Barang : ");
-        banyak_beli = input.nextInt();
+        banyakBeli = input.nextInt();
         
         System.out.println("===========================================================");
 
-        if (banyak_beli < 0) {
+        if (banyakBeli < 0) {
             System.out.println("ERROR - Inputan harus lebih dari 0");
         } else {
-            if (banyak_beli % 3 == 0) {
-                tambahan_barang += banyak_beli / 3;
-                jumlah_barang = banyak_beli + tambahan_barang;
-            } else if (banyak_beli % 7 == 0) {
-                cashback += 5500 * (banyak_beli / 7);
-                tambahan_barang += banyak_beli / 3;
-                jumlah_barang = banyak_beli + tambahan_barang;
+            if (banyakBeli % 3 == 0) {
+                tambahanBarang += banyakBeli / 3;
+                jumlahBarang = banyakBeli + tambahanBarang;
+            } else if (banyakBeli % 7 == 0) {
+                cashback += 5500 * (banyakBeli / 7);
+                tambahanBarang += banyakBeli / 3;
+                jumlahBarang = banyakBeli + tambahanBarang;
             } else {
-                tambahan_barang += banyak_beli / 3;
-                jumlah_barang = banyak_beli + tambahan_barang;
-                cashback += 5500 * (banyak_beli / 7);
+                tambahanBarang += banyakBeli / 3;
+                jumlahBarang = banyakBeli + tambahanBarang;
+                cashback += 5500 * (banyakBeli / 7);
             }
 
             if (cashback > 0) {
@@ -37,16 +37,16 @@ public class soal3 {
                 System.out.println("Cashback : -");
             }
 
-            if (tambahan_barang > 0) {
-                System.out.println("Tambahan Barang : " + tambahan_barang);
+            if (tambahanBarang > 0) {
+                System.out.println("Tambahan Barang : " + tambahanBarang);
             } else {
                 System.out.println("Tambahan Barang : -");
             }
 
-            if (jumlah_barang > 0) {
-                System.out.println("Jumlah Barang : " + jumlah_barang);
+            if (jumlahBarang > 0) {
+                System.out.println("Jumlah Barang : " + jumlahBarang);
             } else {
-                System.out.println("Jumlah Barang : " + banyak_beli);
+                System.out.println("Jumlah Barang : " + banyakBeli);
             }
 
         }

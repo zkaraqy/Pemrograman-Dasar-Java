@@ -15,7 +15,9 @@ public class soal1 {
         System.out.print("Program Studi : ");
         program_studi = input.nextLine();
 
-        System.out.println("Selamat datang, " + nama + " dengan NIM " + NIM + " dari program studi " + program_studi);
+        System.out.println("");
+        System.out.println("Selamat datang, " + nama + " dengan NIM " + NIM);
+        System.out.println("dari program studi " + program_studi);
     }
 
 }

@@ -13,7 +13,6 @@ public class soal1 {
              System.out.println("Program Started");
         } else {
             System.out.println("Program Halted");
-//            System.out.println("Program Busted");
         }
     }
 }

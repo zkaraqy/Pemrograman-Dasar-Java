@@ -10,6 +10,6 @@ public class soal3 {
         nilai4 = 43;
         nilai_rata_rata = nilai1 + nilai2 + nilai3 + nilai4;
         nilai_rata_rata = nilai_rata_rata/4;
-        System.out.println("nilai rata-rata dari 17, 22, 31, dan 43 adalah "+ nilai_rata_rata);
+        System.out.println("nilai rata-rata dari " + nilai1 + ", " + nilai2 + ", " + nilai3 + " dan " + nilai4 + " adalah " + nilai_rata_rata);
     }
 }

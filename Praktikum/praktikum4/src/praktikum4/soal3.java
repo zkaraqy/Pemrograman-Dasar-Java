@@ -6,7 +6,7 @@ public class soal3 {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        String bulan, jumlahHariPerBulan;
+        String bulan;
         System.out.println("Jumlah hari dalam satu bulan pada kalender Hijriyah");
         System.out.println("===================================================");
         System.out.print("Nama bulan : ");

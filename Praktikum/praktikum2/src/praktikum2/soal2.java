@@ -8,8 +8,7 @@ public class soal2 {
         int bilangan;
         System.out.print("Masukkan bilangan : ");
         bilangan = input.nextInt();
-        bilangan = bilangan % 2;
-        String genapAtauGanjil = (bilangan == 0) ? "merupakan bilangan genap" : "merupakan bilangan ganjil";
-        System.out.println(genapAtauGanjil);
+        String genapAtauGanjil = (bilangan % 2 == 0) ? " merupakan bilangan genap" : " merupakan bilangan ganjil";
+        System.out.println(bilangan + genapAtauGanjil);
     }
 }
