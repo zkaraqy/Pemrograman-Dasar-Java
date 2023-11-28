@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class soal4 {
 
-    static String tambahKalimat(String kalimat, Scanner input) {
-        return (kalimat + input.nextLine());
-    }
-
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         String kalimat = "";
@@ -25,5 +21,9 @@ public class soal4 {
                 break;
             }
         } while (true);
+    }
+    
+    static String tambahKalimat(String kalimat, Scanner input) {
+        return (kalimat + input.nextLine());
     }
 }

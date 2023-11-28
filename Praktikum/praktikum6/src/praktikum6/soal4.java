@@ -1,5 +1,4 @@
 package praktikum6;
-
 import java.util.Scanner;
 
 public class soal4 {
@@ -28,9 +27,8 @@ public class soal4 {
         } while (repeat);
 
         rataRata = rataRata / jumlahAngka;
-        
-        System.out.println("\nNilai tertinggi\t: " + (int) nilaiTerkecil);
-        System.out.println("Nilai terendah\t: " + (int) nilaiTerbesar);
+        System.out.println("\nNilai tertinggi\t: " + (int) nilaiTerbesar);
+        System.out.println("Nilai terendah\t: " + (int) nilaiTerkecil);
         System.out.println("Rata-rata\t: " + rataRata);
 
     }

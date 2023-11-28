@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class soal2 {
 
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan bilangan = ");
+        int bilangan = input.nextInt();
+        apakahPrima(bilangan);
+        apakahFibonacci(bilangan);
+    }
+
     static void apakahPrima(int bilangan) {
         if (bilangan == 2 || bilangan == 3 || bilangan == 5 || bilangan == 7) {
             System.out.println(bilangan + " adalah bilangan prima");
@@ -15,7 +23,7 @@ public class soal2 {
     }
 
     static void apakahFibonacci(int bilangan) {
-        int n, f_n, f_n_1, f_n_2;
+        int f_n, f_n_1, f_n_2;
         f_n_2 = 0;
         f_n_1 = 1;
         f_n = 1;
@@ -35,11 +43,4 @@ public class soal2 {
         }
     }
 
-    public static void main(String args[]) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan bilangan = ");
-        int bilangan = input.nextInt();
-        apakahPrima(bilangan);
-        apakahFibonacci(bilangan);
-    }
 }

@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class soal3 {
 
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+        double a, r, n;
+        System.out.println("Hitung Deret Geometri");
+        System.out.print("Input a: ");
+        a = input.nextDouble();
+        System.out.print("input r: ");
+        r = input.nextDouble();
+        System.out.print("input n: ");
+        n = input.nextDouble();
+        System.out.println("\njumlah " + (int) n + " suku pertama barusan Geometri tersebut adalah " + (int) jumlahDeretGeometri(a, r, n));
+    }
+
     static double jumlahDeretGeometri(double a, double r, double n) {
         double Sn;
         if (r > 1) {
@@ -15,18 +28,5 @@ public class soal3 {
         } else {
             return 0;
         }
-    }
-
-    public static void main(String args[]) {
-        Scanner input = new Scanner(System.in);
-        double a, r, n;
-        System.out.println("Hitung Deret Geometri");
-        System.out.print("Input a: ");
-        a = input.nextDouble();
-        System.out.print("input r: ");
-        r = input.nextDouble();
-        System.out.print("input n: ");
-        n = input.nextDouble();
-        System.out.println("\njumlah " + (int) n + " suku pertama barusan Geometri tersebut adalah " + (int)jumlahDeretGeometri(a, r, n));
     }
 }
