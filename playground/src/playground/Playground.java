@@ -195,16 +195,30 @@ public class Playground {
 
 //        double y = Double.parseDouble("345.87");
 //        System.out.println(y);
-
 //        int z = Math.abs(-9);
 //        double z = Math.toDegrees(1);
 //        double z = Math.floor(1.9);
 //        double z = Math.round(1.5);
 //        double z = Math.sin(90);
-        double z = Math.sqrt(17);
-        System.out.println(z);
-                
-                
+//        double z = Math.sqrt(17);
+//        System.out.println(z);
+//        System.out.print("Masukan angka = ");
+//        int x = scan.nextInt();
+//        for (int i = 1; i <= x; i++) {
+//            apakahPrima(i);
+//        }
+
+        System.out.println(Math.cbrt(8));
+        System.out.println(Math.pow(16, 0.5));
     }
 
+    static void apakahPrima(int bilangan) {
+        if (bilangan == 2 || bilangan == 3 || bilangan == 5 || bilangan == 7) {
+            System.out.println(bilangan + " adalah bilangan prima");
+        } else if (bilangan % 2 == 0 || bilangan % 3 == 0 || bilangan % 5 == 0 || bilangan % 7 == 0 || bilangan == 1) {
+            System.out.println(bilangan + " bukan bilangan prima");
+        } else {
+            System.out.println(bilangan + " adalah bilangan prima");
+        }
+    }
 }

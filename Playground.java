@@ -1,6 +1,5 @@
 
 // File playground yang ini sebagai coba coba
-
 import java.util.Arrays;
 
 public class Playground {
@@ -34,7 +33,7 @@ public class Playground {
 
     static int sum(int k) {
         if (k > 0) {
-            return k + sum(k-1);
+            return k + sum(k - 1);
         } else {
             return 0;
         }
@@ -173,8 +172,8 @@ public class Playground {
 //            System.out.println(i);
 //        }
 //
-        String[] HandphoneBrands = {"Realme", "Xiaomi", "Apple", "Samsung"};
-        int[][] twoDimensionalArr = {{1, 2, 3}, {4, 5, 6, 7}};
+//        String[] HandphoneBrands = {"Realme", "Xiaomi", "Apple", "Samsung"};
+//        int[][] twoDimensionalArr = {{1, 2, 3}, {4, 5, 6, 7}};
         //        System.out.println(HandphoneBrands[0] + " " + HandphoneBrands[3]);
         //        System.out.println(HandphoneBrands.length);
         //        for (int i = 0; i < HandphoneBrands.length; i++) {
@@ -220,7 +219,10 @@ public class Playground {
 //            sum += i;
 //        }
 //        System.out.println(sum);
+//        System.out.println(sum(10));
+        int x = 19;
+        String jenisBilangan = (x % 2 == 0) ? "genap" : "ganjil";
+        System.out.println(x + " merupakan bilangan " + jenisBilangan);
 
-        System.out.println(sum(10));
     }
 }
