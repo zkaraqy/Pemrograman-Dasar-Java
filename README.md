@@ -37,3 +37,5 @@ Ringkasan setiap pertemuan mata kuliah pemrograman dasar menggunakan bahasa pemr
 ## Ujian Tengah Praktikum
 
 ## UTS
+
+## Dokumentasi tidak dilanjutkan karena saya malas
