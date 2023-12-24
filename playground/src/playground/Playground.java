@@ -207,9 +207,40 @@ public class Playground {
 //        for (int i = 1; i <= x; i++) {
 //            apakahPrima(i);
 //        }
+//
+//        System.out.println(Math.cbrt(8));
+//        System.out.println(Math.pow(16, 0.5));
+//        System.out.println(roger(8,8));
+//        int a = 2;
+//        ++a;
+//        System.out.println(a);
+//        int b = 1 + ++a;
+//        System.out.println(b);
+//        System.out.println(a);
+//        int a = 2;
+//        int b = 3 * ++a;
+//
+//        for (int i = 1; i <= b + 2; i++) {
+//            if (i % 6 <= 2) {
+//                b += --a * 2 + i / 2;
+//            } else {
+//                b -= 7 + ++a;
+//            }
+//        }
+//
+//        System.out.println(b);
 
-        System.out.println(Math.cbrt(8));
-        System.out.println(Math.pow(16, 0.5));
+//        int x = 1;
+//        System.out.println(++x);
+//        int y = 1 + x;
+//        System.out.println(y);
+//        System.out.println("");
+//        int w = 1;
+//        System.out.println(w++);
+//        System.out.println(w);
+//        int a = 1 + ++w;
+//        int z = 1 + w;
+//        System.out.println(z);
     }
 
     static void apakahPrima(int bilangan) {
@@ -221,4 +252,10 @@ public class Playground {
             System.out.println(bilangan + " adalah bilangan prima");
         }
     }
+
+//    public static int roger(int k, int b) {
+//        if (b == 1) return 1;
+//        else if (k % b == 0) return 1 + roger(k, --b);
+//        else return 0 + roger(k, --b);
+//    }
 }
